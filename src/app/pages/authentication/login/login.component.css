@@ -1,10 +1,10 @@
 
 
 .bg {
-    background-image: url(../../../../assets/img/Runway-airfield-passenger-plane-sky-clouds-dawn_3840x2160.jpg);
+    background-image: url(../../../../assets/img/painel-campo-de-futebol-3-00-x-2-0m-decoracao.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -15,4 +15,31 @@
     margin-right: auto;
     margin: 115px auto;
     position: relative;
+}
+
+.brand-logo img {
+    width: 40%;
+}
+
+#botoes button{
+    width: 100%;
+}
+
+#botoes button:nth-child(1) {
+    background-color: #7cd378;
+    font-weight: 400;
+    
+}
+
+#botoes button:nth-child(2) {
+    margin-top: 5px;
+    background-color: #d2bd3c;
+    font-weight: 400;
+}
+
+#card-color {
+    border-radius: 4%;
+    background-color: #101E39;
+    color: white;
+    box-shadow: 0 0 13px -1px rgb(238, 238, 238);
 }
